@@ -1,0 +1,168 @@
+@media (min-width:480px) {
+    main {
+        .main_background {
+            .main_container {
+                grid-template: 
+                "box3   box3   box3   box3"15.7%
+                "box2   box2   box4   box4" 15.7%
+                "box1   box1   box1   box1" 15.7%
+                "box1   box1   box1   box1" 15.7%
+                "box5   box5   box5   box5" 15.7%
+                "box6   box6   box6   box6" 15.7% /
+                24%     24%    24%    24%;
+                .main_element:nth-child(1) {
+                    grid-area: box1;
+                    overflow: hidden;
+                    transition-property: none;
+                }
+                .main_element:nth-child(2) {
+                    grid-area: box2;
+                    background-image: url("../assets/1204640.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .main_element:nth-child(3) {
+                    grid-area: box3;
+                    background-image: url("../assets/geekmi_x81x.jpg_976912859.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .main_element:nth-child(4) {
+                    grid-area: box4;
+                    background-image: url("../assets/kitagawa.webp");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .main_element:nth-child(5) {
+                    grid-area: box5;
+                    background-image: url("../assets/marin.webp");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .main_element:nth-child(6) {
+                    grid-area: box6;
+                    background-image: url("../assets/my_dress-up_darling-1.jpg_976912859.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
+@media (min-width:568px) {
+    main {
+        .main_background {
+            .main_container {
+                grid-template: 
+                "box3   box3   box3   box3"15.7%
+                "box2   box2   box4   box4" 15.7%
+                "box5   box5   box6   box6" 15.7%
+                "box1   box1   box1   box1" 15.7%
+                "box1   box1   box1   box1" 15.7%
+                "box1   box1   box1   box1" 15.7% /
+                24%     24%    24%    24%;
+                .main_element:nth-child(1) {
+                    grid-area: box1;
+                    overflow: hidden;
+                    transition-property: none;
+                }
+                .main_element:nth-child(2) {
+                    grid-area: box2;
+                    background-image: url("../assets/1204640.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .main_element:nth-child(3) {
+                    grid-area: box3;
+                    background-image: url("../assets/geekmi_x81x.jpg_976912859.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .main_element:nth-child(4) {
+                    grid-area: box4;
+                    background-image: url("../assets/kitagawa.webp");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .main_element:nth-child(5) {
+                    grid-area: box5;
+                    background-image: url("../assets/marin.webp");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .main_element:nth-child(6) {
+                    grid-area: box6;
+                    background-image: url("../assets/my_dress-up_darling-1.jpg_976912859.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
+@media (min-width:750px) {
+    main {
+        .main_background {
+            .main_container {
+                grid-template: 
+                "box1   box1   box1   box1" 15.7%
+                "box1   box1   box1   box1" 15.7%
+                "box1   box1   box1   box1" 15.7%
+                "box2   box2   box2   box2" 15.7%
+                "box5   box3   box3   box4" 15.7%
+                "box6   box6   box6   box6" 15.7% /
+                24%     24%    24%    24%;
+                .main_element:nth-child(1) {
+                    grid-area: box1;
+                    overflow: hidden;
+                    transition-property: none;
+                }
+                .main_element:nth-child(2) {
+                    grid-area: box2;
+                    background-image: url("../assets/1204640.png");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .main_element:nth-child(3) {
+                    grid-area: box3;
+                    background-image: url("../assets/geekmi_x81x.jpg_976912859.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .main_element:nth-child(4) {
+                    grid-area: box4;
+                    background-image: url("../assets/kitagawa.webp");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .main_element:nth-child(5) {
+                    grid-area: box5;
+                    background-image: url("../assets/marin.webp");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+                .main_element:nth-child(6) {
+                    grid-area: box6;
+                    background-image: url("../assets/my_dress-up_darling-1.jpg_976912859.jpg");
+                    background-position: center;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                }
+            }
+        }
+    }
+}
